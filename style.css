@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    gap: 25px;
+    background: radial-gradient(#9fcca0, #f9f9fd);
+}
+
+.info1 {
+    margin-left: auto;
+}
+
+.info1, .info2 {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 30px;
+}
+
+.lupa {
+    border: 2px solid black;
+    width: 250px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.body {
+    display: flex;
+    gap: 20px;
+}
+
+.box1 {
+    padding: 20px;
+}
+
+.list1 {
+    display: flex;
+    gap: 30px;
+}
+
+.inline {
+    display: inline;
+}
+
+h1, .info3, p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.likes {
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.box2 {
+    background-color: rgba(199, 197, 197,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 1px solid black;
+    padding: 20px;
+}
+
+.lookfor {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 250px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.list2, .list3 {
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.image1 {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.image2 {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.image3 {
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.image4 {
+    background-color: yellow;
+    border-radius: 50%;
+}
